@@ -7,14 +7,17 @@ nav {
   padding-bottom: 15px;
   top: 0;
   z-index: 10;
+  
 }
 .nav-left .menu-icon {
   width: 22px;
   margin-right: 25px;
-  margin-left: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
 }
 .nav-left .logo {
-  width: 100px;
+  width: 80px;
+  margin-top: 20px;
 }
 
 .nav-middle .search-box {
@@ -22,6 +25,7 @@ nav {
   margin-right: 15px;
   padding: 8px 12px;
   border-radius: 25px;
+  margin-top: 20px;
 }
 .nav-middle .search-box input {
   width: 400px;
@@ -35,6 +39,7 @@ nav {
 .nav-right img {
   width: 25px;
   margin-right: 25px;
+  margin-top: 20px;
 }
 .nav-right .user-icon {
   width: 35px;

@@ -1,23 +1,22 @@
 nav {
   padding: 0;
   justify-content: space-between;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   background: #fff;
   position: sticky;
-  padding-bottom: 15px;
-  top: 0;
+  padding-bottom: 1px;
+  top:0;
   z-index: 10;
-  
+ margin-top:-30px ;
 }
 .nav-left .menu-icon {
-  width: 22px;
+  width: 20px;
   margin-right: 25px;
   margin-left: 40px;
-  margin-top: 20px;
+  
 }
 .nav-left .logo {
-  width: 80px;
-  margin-top: 20px;
+  width: 90px;
+   
 }
 
 .nav-middle .search-box {
@@ -25,7 +24,7 @@ nav {
   margin-right: 15px;
   padding: 8px 12px;
   border-radius: 25px;
-  margin-top: 20px;
+ 
 }
 .nav-middle .search-box input {
   width: 400px;
@@ -39,10 +38,10 @@ nav {
 .nav-right img {
   width: 25px;
   margin-right: 25px;
-  margin-top: 20px;
+ 
 }
 .nav-right .user-icon {
-  width: 35px;
+  width: 30px;
   border-radius: 50%;
 }
 @media (max-width: 900px) {
@@ -51,7 +50,7 @@ nav {
   }
   .nav-right img {
     display: none;
-    margin-top: 10px;
+    margin-top: -5px;
   }
   .nav-right .user-icon {
     display: block;
@@ -60,12 +59,12 @@ nav {
   .nav-left .logo {
     width: 70px;
     margin-left: 30px;
-    margin-top: 10px;
+    margin-top: -5px;
   }
   .nav-middle .search-box input {
     width: 100px;
   }
   .nav-middle .search-box {
-    margin-top: 10px;
+    margin-top: -5px;
   }
 }

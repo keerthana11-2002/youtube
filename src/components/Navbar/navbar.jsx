@@ -1,13 +1,13 @@
 import React from "react";
 import "./navbar.css";
 import menu from "../../assets/menu.png";
-import logo from "../../assets/logo1.png";
 import search from "../../assets/search.png";
 import upload from "../../assets/upload.png";
 import more from "../../assets/more.png";
 import notification from "../../assets/notification.png";
 import profile from "../../assets/user_profile.jpg";
 import { Link } from "react-router-dom";
+import logo2 from "../../assets/logo2.png";
 
 const Navbar = ({ setSidebar }) => {
   return (
@@ -20,7 +20,7 @@ const Navbar = ({ setSidebar }) => {
           onClick={() => setSidebar((prev) => (prev === false ? true : false))}
         />
         <Link to="/">
-          <img src={logo} alt="logo" className="logo" width="10" />
+        <img src={logo2} alt="logo" className="logo"/>
         </Link>
       </div>
 

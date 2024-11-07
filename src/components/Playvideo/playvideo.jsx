@@ -57,7 +57,7 @@ const PlayVideo = () => {
         allowFullScreen
       ></iframe>
 
-      <h3>{apiData ? apiData.snippet.title : "Title Here"}</h3>
+      <h3>{apiData?apiData.snippet.title : "Title Here"}</h3>
       <div className="play-video-info">
         <p>
           {apiData ? value_converter(apiData.statistics.viewCount) : "16k"}{" "}

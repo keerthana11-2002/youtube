@@ -64,7 +64,7 @@ const PlayVideo = () => {
           views &bull; {moment(apiData?.snippet?.publishedAt).fromNow()}
         </p>
         <div>
-          <span>
+          <span className="buttons">
             <img src={like} alt="" />
             {apiData ? value_converter(apiData.statistics.likeCount) : 155}
           </span>

@@ -50,7 +50,7 @@ nav {
   }
   .nav-right img {
     display: none;
-    margin-top: -5px;
+    margin-top: -7px;
   }
   .nav-right .user-icon {
     display: block;
@@ -58,13 +58,13 @@ nav {
   }
   .nav-left .logo {
     width: 70px;
-    margin-left: 23px;
-    margin-top: -5px;
+    margin-left: 25px;
+    margin-top: -7px;
   }
   .nav-middle .search-box input {
     width: 100px;
   }
   .nav-middle .search-box {
-    margin-top: -5px;
+    margin-top: -7px;
   }
 }
